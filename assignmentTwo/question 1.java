@@ -10,7 +10,7 @@ public class Main
         double n = sc.nextInt();
 
         // If Statement
-        if(n >= 80 && n <= 90)
+        if(n > 80 && n < 90)
         {
             n += 5;
         }
