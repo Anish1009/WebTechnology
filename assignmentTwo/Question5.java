@@ -14,7 +14,7 @@ public class Question5
 
         for(int i = 1 ; i <= n ; i++)
         {
-            System.out.println(i + " " + Math.pow(i , 2) + " " + Math.pow(i , 3) + " " + Math.pow(i , 4));
+            System.out.println(i + " " + (int)Math.pow(i , 2) + " " + (int)Math.pow(i , 3) + " " + (int)Math.pow(i , 4));
         }
 	}
 }
