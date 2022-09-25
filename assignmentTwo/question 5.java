@@ -4,10 +4,10 @@ public class Main
 {
 	public static void main(String[] args) {
 	    
-	    System.out.println("Enter a number: ");
+	System.out.println("Enter a number: ");
 	    
-	    // Taking input from user
-		Scanner sc = new Scanner(System.in);
+	// Taking input from user
+	Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
         System.out.println("n n^2 n^3 n^4");
