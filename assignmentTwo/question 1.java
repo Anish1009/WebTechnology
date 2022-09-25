@@ -7,7 +7,7 @@ public class Main
 
         // Taking input from the user
         System.out.println("Enter the Number: "); 
-        double n = sc.nextInt();
+        double n = sc.nextDouble();
 
         // If Statement
         if(n > 80 && n < 90)
