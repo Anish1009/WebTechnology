@@ -11,5 +11,5 @@ System.out.println(x);
 }
 }
 
-/* Output :
-10
+// Output : 10
+
