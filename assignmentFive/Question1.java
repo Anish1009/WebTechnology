@@ -24,13 +24,13 @@ class BlueWhale extends Mammals , MarineAnimals{
 public class Question1{
     public static void main(String []args)
     {
-        Mammals obj1;
+        Mammals obj1 = new Mammals();
         obj1.category1();
 
-        MarineAnimals obj2;
+        MarineAnimals obj2 = new MarineAnimals();
         obj2.category2();
 
-        BlueWhale obj3;
+        BlueWhale obj3 = new BlueWhale();
         obj3.category3();
 
         obj3.category1();
