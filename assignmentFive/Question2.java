@@ -21,8 +21,8 @@ class RBI { // Base class
     int minBalance, maxWithdraw;
     double minInterest;    
     public RBI() {
-        minBalance = 1000;        
-        maxWithdraw = 1000000;        
+        minBalance = 100;        
+        maxWithdraw = 20000000;        
         minInterest = 4.0;    
     }    
     public void setMinInterest(double minInterest) {        
